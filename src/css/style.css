@@ -1,0 +1,100 @@
+.container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+/* Animação do background */
+.gradient {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(/src/imagens/BBQ.gif);
+}
+
+.container-blocos {
+    position: relative;
+    top: calc(20% + 200px); 
+    left: 52%;
+    transform: translateX(-50%);
+    width: 70%; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #07e0b1b0;
+}
+
+.container-blocos h1{
+    font-family: 'sans-serif';
+    color: rgb(226, 216, 72);
+}
+
+.container-blocos h3{
+    font-family: 'sans-serif';
+    color: rgb(226, 216, 72);
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+.container h1{
+    font-family: 'sans-serif';
+    color: rgb(226, 216, 72);
+    text-shadow: #0f570f;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #10b948, 0 2px 0 #353131, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 22px 30px rgba(0,0,0,0.9), 38px -37px 2px rgba(206,89,55,0);
+}
+
+.container p{
+    font-family: 'sans-serif';
+    color: rgb(224, 214, 70);
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #3c9414, 0 2px 0 #303a3a, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 22px 30px rgba(0,0,0,0.9), 38px -37px 2px rgba(18, 51, 28, 0);
+}
+
+.div-botoes button{
+    background: none;
+    border: none;
+    display: inline-block;
+    color: #da22ac;
+    padding: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.div-botoes button:hover {
+    color: #b40f8b;
+    transition: .2s;
+}
+
+#botao-confirmar {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #da22ac;
+    color: rgb(219, 231, 106); 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: .2s;
+}
