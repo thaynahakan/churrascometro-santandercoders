@@ -15,7 +15,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(/src/imagens/BBQ.gif);
+    /* background: url(/src/imagens/BBQ.gif); */
+    background: #c0b7d0;;
 }
 
 .container-blocos {
